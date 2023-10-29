@@ -4,8 +4,11 @@
 }
 .layout{
     background-color: #FCFAFA;
-    max-width: 1440px;
+    max-width: 100%;
+    height: 100vh;
+    /* max-width: 1440px; */
     position: relative;
+    overflow-x: hidden;
 }
 .navbar{
     height: 84px;
@@ -83,8 +86,7 @@ img{
 }
 .aboutsection{
     position: absolute;
-    width: 1440px;
-height: 305px;
+    height: 305px;
 top: 608px;
 padding: 51px 216px 51px 216px;
 gap: 10px;
